@@ -138,7 +138,9 @@ a:hover {
     width: 28%;
     border-radius: 48%;
     float: left;
+    /*Floating the image to the left of the text */
     margin-right: 30px;
+    /*This will give a small amount of space between the picture and the text */
     height: 260px;
 }
 
@@ -146,7 +148,9 @@ a:hover {
     width: 30%;
     border-radius: 48%;
     float: right;
+    /*Floating the image to the right of the text */
     margin-left: 30px;
+    /*This will give a small amount of space between the picture and the text */
     height: 260px;
 }
 
