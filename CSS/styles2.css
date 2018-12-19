@@ -28,6 +28,7 @@ h2 {
     font-size: 2.5rem;
     font-weight: normal;
     padding-bottom: 10px;
+    /* This will create space inbetween the Hello and the <p> */
 }
 
 h3 {
@@ -37,20 +38,28 @@ h3 {
 
 p {
     line-height: 2;
+    /*Targeting all the paragraphs in the project and changing all their line heights to double what they started at  */
 }
 
 hr {
     border: dotted #EAF6F6 6px;
+    /*This is going to style the Dotted line that crosses the page inbetween sections */
     border-bottom: none;
+    /*This will take the bottom border and made it one single line */
     width: 4%;
     margin: 100px auto;
+    /* this will create space above and below the border line and it will be positioned in the middle :auto:   */
 }
 
 a {
     color: #11999E;
+    /* Changing the text color for all the Anchor tags <a> */
     font-family: "Montserrat", sans-serif;
+    /* Changing the font family to what everything else is on the page.  */
     margin: 10px 20px;
+    /* Adding margin inbetween the <a> tags  */
     text-decoration: none;
+    /*  Will take the underline default off */
 }
 
 a:hover {
@@ -69,6 +78,7 @@ a:hover {
 }
 
 .bottom-container {
+    /*The Footer note */
     background-color: #66BFBF;
     padding: 50px 0 20px;
 }
@@ -81,11 +91,14 @@ a:hover {
 .intro {
     width: 30%;
     margin: auto;
+    /* This will move the Into Text into the middle */
 }
 
 .contact-me {
     width: 40%;
+    /* this will bring the paragraph together and not take up a huge width */
     margin: 40px auto 60px;
+    /* This will create space from the top and bottom of the contact-me (wording)   */
 }
 
 .copyright {
@@ -112,9 +125,13 @@ a:hover {
 
 .skill-row {
     width: 50%;
+    /*When the width is at 100% the div would be in the center. Now that it's only 50% width its pushed to the side only taking up 50% */
     margin: 100px auto 100px auto;
+    /* Adding a margin will move this div into the middle. 100px (top) auto (left & right) & 100px bottom */
     text-align: left;
+    /* This will move the text to the left of the picture this will override the (text-align: center;) */
     line-height: 2;
+    /* This will make the text much easier to read having more space inbetween them.  */
 }
 
 .fullstack {
@@ -145,6 +162,7 @@ a:hover {
     border-radius: 8px;
     text-shadow: 1px 1px 3px #666666;
     font-family: "Montserrat", sans-serif;
+    /*Changed the font to the font that we have been using for the rest of the page. */
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
